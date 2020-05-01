@@ -1,0 +1,145 @@
+body {
+  background-image: url("bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  margin: 50px 40px 20px 40px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin: 0 29px 0 29px;
+  line-height: 1.6;
+}
+
+/* Social media icons */
+div {
+  padding: 0 100px 0 110px;
+  margin-top: 40px;
+}
+
+/* Logo */
+.logo-box{
+  max-width: 35%;
+  height: auto;
+  margin-left: 25px;
+  padding:0;
+}
+.logo {
+  max-width: 100%;
+}
+
+/* Computer image */
+.mockup-box{
+  max-width:85%;
+  height: auto;
+  margin-left: 30px;
+  padding:0;
+}
+.mockups {
+  max-width: 300px;
+}
+
+/* Button */
+.register {
+  background-color: white;
+  border: none;
+  border-radius: 40px;
+  color: hsl(257, 40%, 49%);
+  padding: 15px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 25px 60px;
+}
+
+/* Social media icons */
+.dot {
+  height: 25px;
+  width: 25px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 4px;
+  margin: 5px;
+}
+
+.fab {
+  margin: 4px;
+  padding: 1px;
+}
+.social {
+  margin-bottom: 5px;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+}
+
+.attribution a {
+  color: black;
+}
+@media only screen and (min-width:500px){
+  body {
+    background-image: url("bg-desktop.svg");
+  }
+  h1{
+    margin-left: 850px;
+    margin-right: 110px;
+    margin-top: -480px;
+    font-size: 35px;
+    text-align: left;
+  }
+  p {
+    text-align: left;
+    margin: 0 110px 0 850px;
+  }
+  .logo-box{
+    max-width: 20%;
+    margin-left: 80px;
+    padding: 0;
+  }
+  .logo{
+    max-width: 70%;
+    margin-top:0;
+  }
+  .mockup-box{
+    margin-left: 80px;
+  }
+  .mockups{
+    max-width: 100%;
+  }
+  /* Button */
+  .register {
+    margin: 25px 600px 0 850px;
+    padding: 15px 70px;
+  }
+  /* Social media icons */
+  .social {
+    padding-left:1200px;
+    padding-right: 0;
+    margin-top: 280px;
+  }
+  .attribution{
+    text-align: left;
+  }
+  footer{
+    margin-left: 80px;
+  }
+}
